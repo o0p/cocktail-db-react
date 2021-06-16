@@ -11,6 +11,11 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Switch>
+        <Route exacth path="/">
+          <Home />
+        </Route>
+      </Switch>
     </Router>
   );
 }
