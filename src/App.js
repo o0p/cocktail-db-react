@@ -15,6 +15,9 @@ function App() {
         <Route exacth path="/">
           <Home />
         </Route>
+        <Route path="/about">
+          <About />
+        </Route>
       </Switch>
     </Router>
   );
