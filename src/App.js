@@ -21,6 +21,9 @@ function App() {
         <Route path="/cocktail:id">
           <SingleCocktail />
         </Route>
+        <Route path="*">
+          <Error />
+        </Route>
       </Switch>
     </Router>
   );
