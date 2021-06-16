@@ -18,6 +18,9 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
+        <Route path="/cocktail:id">
+          <SingleCocktail />
+        </Route>
       </Switch>
     </Router>
   );
