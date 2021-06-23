@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route exacth path="/">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/about">
