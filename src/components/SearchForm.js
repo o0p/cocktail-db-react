@@ -5,9 +5,13 @@ const SearchForm = () => {
   const { setSearchTearm } = useGlobalContext();
   const searchValue = React.useRef('');
   return (
-    <div>
-      <h2>search form component</h2>
-    </div>
+    <section className="section search">
+      <form action="" className="search-form">
+        <div className="form-control">
+          <label htmlFor="name">search your favorite cocktail</label>
+        </div>
+      </form>
+    </section>
   );
 };
 
