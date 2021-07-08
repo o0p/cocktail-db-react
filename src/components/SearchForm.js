@@ -23,6 +23,7 @@ const SearchForm = () => {
             ref={searchValue}
             onChange={searchCocktail}
           />
+          <button className="btn-primary">Search</button>
         </div>
       </form>
     </section>
